@@ -1,0 +1,83 @@
+body{
+  background-color:hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding:0;
+}
+
+h1{
+  color:hsl(179, 69%, 43%)
+}
+
+h2 {
+  font-size: 14px;
+}
+
+p{
+  font-size: 12px;
+}
+
+.yellow{
+  color: hsl(71, 73%, 54%)
+}
+
+span{
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main{
+  width: 70vw;
+  height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.box{
+  width: 700px;
+  padding-top:182px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  border-radius: 10px;
+  
+}
+
+.sec-1{
+  padding: 0 40px 0 40px;
+  text-align: justify;
+  background-color: white;
+
+}
+
+.section-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+p .gb{
+  color:hsl(218, 22%, 67%);
+}
+
+.sec-2{
+  text-align: center;
+  background-color: hsl(179, 69%, 43%);
+  color: white;
+
+}
+
+.sec-3{
+  border-left:hsl(179, 49%, 44%) solid 1px;
+  text-align: center;
+  background-color: hsl(179, 50%, 46%);
+  color: white;
+}
+
+button{
+  padding: 10px 25px 10px 25px;
+  background-color: hsl(71, 73%, 54%); 
+  border-radius: 7px;
+  border-color:hsl(179, 50%, 46%);
+}
